@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <RadioGroup
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/Espresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Espresso Coffee"
+        android:textStyle="bold"
+        android:checked="false"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157">
+
+    </RadioButton>
+
+
+    <RadioButton
+        android:id="@+id/tea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tea  "
+        android:checked="false"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486">
+
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/latee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capuchino Late  "
+        android:textStyle="bold"
+        android:checked="false"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
+
+    <RadioButton
+        android:id="@+id/nescafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nescafe "
+        android:textStyle="bold"
+        android:checked="false"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38">
+
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/Hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hot Chocolate"
+        android:textStyle="bold"
+        android:checked="false"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261">
+
+    </RadioButton>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome to hot drinks"
+        android:textColor="#ff1155"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.356"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06">
+
+    </TextView>
+
+
+    <CheckBox
+android:id="@+id/milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Milk  "
+        android:checked="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702">
+
+    </CheckBox>
+
+    <CheckBox
+android:id="@+id/Cream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whipped Cream  "
+        android:checked="false"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702">
+
+    </CheckBox>
+
+    <Button
+        android:id="@+id/Order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Order"
+        android:textStyle="bold"
+        android:textColor="#ff1155"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <Button
+        android:id="@+id/Par"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open The Ice Drinks"
+        android:textStyle="bold"
+        android:textColor="#ff1155"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935" />
+
+
+</android.support.constraint.ConstraintLayout>
